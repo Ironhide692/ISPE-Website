@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #1c7cd6;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1e90ff;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Index Image */
+.hero {
+    background-color: #1e90ff;
+    background-image: url(../images/4F.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #1c7cd6;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(80, 80, 54);
+}
+
+/* Index button */
+
+.cta-button {
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1c7cd6;
+}
+
+.cta-button {
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 30px; /* Add rounded corners */
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Add transform to the transition */
+}
+
+.cta-button:hover {
+    background-color: #1c7cd6;
+    transform: scale(1.05); /* Scale the button on hover */
+}
+
